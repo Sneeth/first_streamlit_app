@@ -1,3 +1,4 @@
+import snowflake.connector
 import streamlit
 streamlit.title('My Parents New Healthy Diner')
 streamlit.header('🥗 🐔 🥑Breakfast Menu')
@@ -19,4 +20,4 @@ streamlit.header('Fruityvice Fruit Advice!')
 fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
 streamlit.write('The user entered ', fruit_choice)
 
-import snowflake.connector
+
